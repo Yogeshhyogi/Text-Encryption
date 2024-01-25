@@ -30,3 +30,40 @@ Feel free to explore, experiment, and contribute to this project!
 This description provides a brief overview of the project's purpose and features. It also includes instructions on how to use the application for both encryption and decryption. Additionally, it emphasizes the importance of securely sharing the encrypted text.
 
 As for the execution, users can simply open the HTML file in a web browser to access the application. They can interact with the provided textarea, buttons, and result sections to encrypt and decrypt text.
+To host your web page on your local machine and allow your friend to access it using your IP address, you can follow these general steps:
+
+1. **Host the Page Locally:**
+   - Make sure you have a simple web server installed on your machine. If you have Python installed, you can use the following command to start a basic server:
+     ```bash
+     python -m http.server
+     ```
+     This will start a server on port 8000 by default.
+
+   - Place your HTML file and any associated assets (like images) in the directory where you run the command.
+
+2. **Find Your Local IP Address:**
+   - Open a command prompt or terminal.
+   - Run the following command:
+     - On Windows: `ipconfig`
+     - On macOS/Linux: `ifconfig` or `ip addr`
+
+   - Look for an entry labeled "IPv4 Address" (Windows) or "inet" (macOS/Linux). It will look something like `192.168.x.x` or `10.x.x.x`.
+
+3. **Access the Page Locally:**
+   - Open a web browser on your machine.
+   - Enter the following address in the address bar:
+     ```
+     http://localhost:8000
+     ```
+     Replace `8000` with the port number if you used a different one.
+
+4. **Access the Page from Another Device:**
+   - Ensure that your machine's firewall allows incoming connections on the chosen port.
+   - Provide your friend with your local IP address and the port number.
+   - Your friend can access the page using the following address:
+     ```
+     http://your-local-ip:8000
+     ```
+     Replace `your-local-ip` with the actual local IP address you found earlier, and `8000` with the port number.
+
+   Note: Keep in mind that this setup allows access only within the same local network. If you want to make it accessible over the internet, you'll need to consider port forwarding and potentially use services like **Ngrok** for tunneling.
