@@ -17,13 +17,13 @@ Before running the code, make sure you have the following installed:
 - npm (Node Package Manager): Typically installed with Node.js
 - Python (for local server hosting): [Download](https://www.python.org/)
 
-### Installation
+## Installation
 
 1. Clone the repository to your local machine:
 
-    ```bash[
-https://github.com/Yogeshhyogi/Text-Encryption.git
-```
+    ```bash
+    https://github.com/Yogeshhyogi/Text-Encryption.git
+    ```
 
 2. Navigate to the project directory:
 
@@ -37,9 +37,9 @@ https://github.com/Yogeshhyogi/Text-Encryption.git
     npm install
     ```
 
-### Running the Application
+# Running the Application
 
-#### Local Development
+## Local Development
 
 1. **Client-side**: Open a terminal and navigate to the `client` directory:
 
@@ -55,7 +55,7 @@ https://github.com/Yogeshhyogi/Text-Encryption.git
 
 3. Open a web browser and go to `http://localhost:8000` to access the application.
 
-#### IntelliJ IDEA
+## IntelliJ IDEA
 
 1. Open IntelliJ IDEA and import the project by selecting the `Text-Encryption.git` directory.
 
@@ -63,11 +63,7 @@ https://github.com/Yogeshhyogi/Text-Encryption.git
 
 3. Open the `index.html` file located in `src/client` and run it using a live server or by opening it in a web browser.
 
-
-This description provides a brief overview of the project's purpose and features. It also includes instructions on how to use the application for both encryption and decryption. Additionally, it emphasizes the importance of securely sharing the encrypted text.
-
-As for the execution, users can simply open the HTML file in a web browser to access the application. They can interact with the provided textarea, buttons, and result sections to encrypt and decrypt text.
-### Hosting the Webpage
+# Hosting the Webpage
 
 To host the webpage locally or make it accessible over the internet, follow these steps:
 
@@ -77,7 +73,7 @@ To host the webpage locally or make it accessible over the internet, follow thes
 
 3. **Hosting with Ngrok**: Follow the instructions provided in the previous README file under the "Ngrok" section.
 
-# Instruction
+## Instruction
 
 1. **Host the Page Locally:**
    - Make sure you have a simple web server installed on your machine. If you have Python installed, you can use the following command to start a basic server:
@@ -142,4 +138,8 @@ Now your friend can open the Ngrok URL in a web browser, and it will forward the
 - The Ngrok URL is temporary and may change every time you restart Ngrok. If you need a fixed subdomain, you might consider upgrading to Ngrok's paid plans.
 - Keep the terminal running with Ngrok as long as you want the public access to your local server. Closing the terminal will stop the Ngrok tunnel.
 
-Make sure to test the setup to ensure everything is working as expected. If you encounter any issues or have further questions, feel free to ask!
+
+## Contributing
+
+Make sure to test the setup to ensure everything is working as expected. If you encounter any issues or have further questions, feel free to ask
+Feel free to explore, experiment, and contribute to this project! If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
