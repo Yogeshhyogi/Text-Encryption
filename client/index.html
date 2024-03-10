@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption App</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+    <h1>Encryption App</h1>
+
+    <div>
+        <label for="inputText">Input Text:</label>
+        <input type="text" id="inputText" name="inputText" required>
+    </div>
+
+    <div>
+        <label for="encryptionKey">Encryption Key (32 characters):</label>
+        <input type="text" id="encryptionKey" name="encryptionKey" required maxlength="32">
+    </div>
+
+    <button onclick="encrypt()">Encrypt</button>
+    <button onclick="decrypt()">Decrypt</button>
+
+    <div>
+        <label for="outputText">Output Text:</label>
+        <input type="text" id="outputText" name="outputText" readonly>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
