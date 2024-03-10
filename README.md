@@ -7,32 +7,77 @@ This repository contains a simple web application for text encryption and decryp
 - **Text Encryption:** Enter a text in the provided textarea and encrypt it using the AES-GCM encryption algorithm.
 - **Text Decryption:** Decrypt the encrypted text and view the original message.
 
-## How to Use:
+## How to Run
 
-1. **Encryption:**
-   - Enter the text in the "Enter Text" textarea.
-   - Click the "Encrypt" button.
-   - The encrypted text will be displayed in the "Result" section.
+### Prerequisites
 
-2. **Decryption:**
-   - Copy the encrypted text.
-   - Paste the encrypted text in the "Enter Text" textarea.
-   - Click the "Decrypt" button.
-   - The decrypted text will be displayed in the "Result" section.
+Before running the code, make sure you have the following installed:
 
-## Note:
-- Ensure that you securely share the encrypted text with the intended recipient, as decryption requires the original encryption key.
+- Node.js: [Download](https://nodejs.org/)
+- npm (Node Package Manager): Typically installed with Node.js
+- Python (for local server hosting): [Download](https://www.python.org/)
 
-Feel free to explore, experiment, and contribute to this project!
+### Installation
 
----
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/your-username/encryption-app.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd encryption-app
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+### Running the Application
+
+#### Local Development
+
+1. **Client-side**: Open a terminal and navigate to the `client` directory:
+
+    ```bash
+    cd src/client
+    ```
+
+2. Start a local server:
+
+    ```bash
+    python -m http.server
+    ```
+
+3. Open a web browser and go to `http://localhost:8000` to access the application.
+
+#### IntelliJ IDEA
+
+1. Open IntelliJ IDEA and import the project by selecting the `encryption-app` directory.
+
+2. Ensure that Node.js and npm are properly configured in IntelliJ IDEA.
+
+3. Open the `index.html` file located in `src/client` and run it using a live server or by opening it in a web browser.
+
 
 This description provides a brief overview of the project's purpose and features. It also includes instructions on how to use the application for both encryption and decryption. Additionally, it emphasizes the importance of securely sharing the encrypted text.
 
 As for the execution, users can simply open the HTML file in a web browser to access the application. They can interact with the provided textarea, buttons, and result sections to encrypt and decrypt text.
-To host your web page on your local machine and allow your friend to access it using your IP address, you can follow these general steps:
+### Hosting the Webpage
 
-# Hosting The Webpage
+To host the webpage locally or make it accessible over the internet, follow these steps:
+
+1. **Hosting Locally**: Follow the steps mentioned above in "Local Development."
+
+2. **Accessing Locally**: Open a web browser and enter the local server's URL (e.g., `http://localhost:8000`).
+
+3. **Hosting with Ngrok**: Follow the instructions provided in the previous README file under the "Ngrok" section.
+
+# Instruction
 
 1. **Host the Page Locally:**
    - Make sure you have a simple web server installed on your machine. If you have Python installed, you can use the following command to start a basic server:
