@@ -21,14 +21,14 @@ Before running the code, make sure you have the following installed:
 
 1. Clone the repository to your local machine:
 
-    ```bash
-    git clone https://github.com/your-username/encryption-app.git
-    ```
+    ```bash[
+https://github.com/Yogeshhyogi/Text-Encryption.git
+```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd encryption-app
+    cd Text-Encryption.git
     ```
 
 3. Install dependencies:
@@ -57,7 +57,7 @@ Before running the code, make sure you have the following installed:
 
 #### IntelliJ IDEA
 
-1. Open IntelliJ IDEA and import the project by selecting the `encryption-app` directory.
+1. Open IntelliJ IDEA and import the project by selecting the `Text-Encryption.git` directory.
 
 2. Ensure that Node.js and npm are properly configured in IntelliJ IDEA.
 
